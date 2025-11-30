@@ -1,0 +1,13 @@
+global:
+  message: " Welcome to Global Microservice Environment !".
+Logging:
+  level:
+   root: INFO
+management:
+  endpoint:
+    web:
+      exposure:
+        include: health,info,metrics,refresh
+endpoint:
+  health: 
+    show-details: always
