@@ -1,14 +1,12 @@
-global:
-  message: "Welcome to order dev environment!"
-server:
-  port: 8084
-message: "Hello from Order Dev!"
 spring:
-  datasource: 
-    url: jdbc:mysql://localhost:3306/order_dev
+  datasource:
+    url: jdbc:mysql://localhost:3306/cust_dev
     username: root
     password: Deens@1234
   jpa:
-    hibernate: 
+    hibernate:
       ddl-auto: update
       show-sql: true
+
+global:
+  message: "Welcome to customer DEV environment!"
