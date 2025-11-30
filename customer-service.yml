@@ -1,6 +1,8 @@
 spring:
   application:
-    name: order-service
+    name: customer-service
 
 server:
-  port: 8083
+  port: 8082
+
+message: "Hello from Customer Default!"
