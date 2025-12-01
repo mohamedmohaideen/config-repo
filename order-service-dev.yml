@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/cust_dev
+    url: jdbc:mysql://localhost:3306/order_dev
     username: root
     password: Deens@1234
   jpa:
@@ -9,4 +9,4 @@ spring:
       show-sql: true
 
 global:
-  message: "Welcome to customer DEV environment!"
+  message: "Welcome to order DEV environment!"
